@@ -12,6 +12,7 @@
 		2EF877621CABA54300333E56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EF877601CABA54300333E56 /* Main.storyboard */; };
 		2EF877641CABA54300333E56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EF877631CABA54300333E56 /* Assets.xcassets */; };
 		2EF877671CABA54300333E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EF877651CABA54300333E56 /* LaunchScreen.storyboard */; };
+		2EF8776F1CABA97B00333E56 /* CustomObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF8776E1CABA97B00333E56 /* CustomObserver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2EF877631CABA54300333E56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EF877661CABA54300333E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EF877681CABA54300333E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EF8776E1CABA97B00333E56 /* CustomObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomObserver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				2EF8775C1CABA54300333E56 /* AppDelegate.swift */,
 				2EF8775E1CABA54300333E56 /* ViewController.swift */,
+				2EF8776E1CABA97B00333E56 /* CustomObserver.swift */,
 				2EF877601CABA54300333E56 /* Main.storyboard */,
 				2EF877631CABA54300333E56 /* Assets.xcassets */,
 				2EF877651CABA54300333E56 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EF8776F1CABA97B00333E56 /* CustomObserver.swift in Sources */,
 				2EF8775F1CABA54300333E56 /* ViewController.swift in Sources */,
 				2EF8775D1CABA54300333E56 /* AppDelegate.swift in Sources */,
 			);
